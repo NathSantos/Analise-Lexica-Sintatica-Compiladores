@@ -1,12 +1,10 @@
 ============================= MANUAL DO USUARIO =============================
 INTEGRANTES
-    *Nathália Rodrigues Machado dos Santos - 22052574
-    *Matheus dos Santos Palheta - 22052572
+    *Nathália Rodrigues Machado dos Santos 
+    *Matheus dos Santos Palheta 
 
 VIDEOS
-    *explicacao do codigo: ??
-    *realizacao de testes: ??
-
+    *link do video: ??
 
 
 
