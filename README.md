@@ -1,5 +1,17 @@
 # Analise-Lexica-Sintatica-Compiladores
 
+# Objetivo:
+
+O objetivo deste trabalho é construir um analisador sintático para uma linguagem de programação de alto nível. 
+Para isso, utilizamos o Yacc e o Lex.
+
+# Lex
+
+Lex é uma ferramenta que gera um analisador léxico, também conhecido como scanner, que é responsável por analisar a entrada de um programa em busca de padrões de caracteres que representam tokens, tais como palavras-chave, operadores, identificadores, números, símbolos de pontuação, etc. O analisador léxico produz uma sequência de tokens que é passada para o analisador sintático.
+
+# Yacc
+
+Yacc é uma ferramenta que gera um analisador sintático, também conhecido como parser, que é responsável por analisar a estrutura gramatical do programa em busca de padrões de tokens que correspondem a regras gramaticais definidas para a linguagem. O analisador sintático produz uma árvore de análise sintática que é usada pelo compilador ou interpretador para gerar o código executável.
 
 # ARQUIVO DE ENTRADA
     *formato = entrada.txt
