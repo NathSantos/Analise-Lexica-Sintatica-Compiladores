@@ -28,14 +28,7 @@ Yacc é uma ferramenta que gera um analisador sintático, também conhecido como
 
 # COMO EXECUTAR
     *utilizamos o flex e o yacc para a realização deste trabalho.
-    *caso queira apenas ir direto ao ponto e executar a "entrada.txt" para testar o programa,
-     basta executar o seguinte comando, pelo terminal:
-
-        $ ./meu_programa entrada.txt
-
-    *onde "entrada.txt" deve ser o arquivo contendo os lexemas para teste
-    *agora, caso queira ver o processo de geração dos arquivos oriundos do lex e do yacc,
-     siga os seguintes comandos, no terminal:
+    *execute os seguintes passos, no terminal:
 
         -> instalação do lex e yacc:
             $ sudo apt-get update
@@ -48,5 +41,6 @@ Yacc é uma ferramenta que gera um analisador sintático, também conhecido como
             $ gcc lex.yy.c -lfl -o lexico
             $ gcc lex.yy.c y.tab.c main.c -o meu_programa
             $ ./meu_programa entrada.txt
-
+            
+    *onde "entrada.txt" deve ser o arquivo contendo os lexemas para teste
     *foi compilado utilizando o gcc nas versoes 18.04 e 22.04 do ubuntu
